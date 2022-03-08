@@ -2,8 +2,8 @@
 
 using tpmodul3_1302204035;
 
-//membuat data KodePos
-void CreateData()
+//KodePos
+void kPos()
 {
     KodePos kd1 = new KodePos();
     KodePos kd2 = new KodePos();
@@ -41,7 +41,21 @@ void CreateData()
     kd10.setKodePos(40274);
     kd11.setKodePos(40273);
     
-    Console.Write("Kelurahan : " + kd1.getKelurahan() + "\n" + "Kode Pos : " + kd1.getKodePos());
+    Console.WriteLine("Kelurahan " + "\t" + "Kode Pos ");
+    Console.WriteLine(kd1.getKelurahan() + "\t" + kd1.getKodePos());
+    Console.WriteLine(kd2.getKelurahan() + "\t" + kd2.getKodePos());
+    Console.WriteLine(kd3.getKelurahan() + "\t"+"\t" + kd3.getKodePos());
+    Console.WriteLine(kd4.getKelurahan() + "\t"+"\t" + kd4.getKodePos());
+    Console.WriteLine(kd5.getKelurahan() + "\t"+"\t" + kd5.getKodePos());
+    Console.WriteLine(kd6.getKelurahan() + "\t" + kd6.getKodePos());
+    Console.WriteLine(kd7.getKelurahan() + "\t" + kd7.getKodePos());
+    Console.WriteLine(kd8.getKelurahan() + "\t" + kd8.getKodePos());
+    Console.WriteLine(kd9.getKelurahan() + "\t" + kd9.getKodePos());
+    Console.WriteLine(kd10.getKelurahan() + "\t"+"\t" + kd10.getKodePos());
+    Console.WriteLine(kd11.getKelurahan() + "\t"+"\t" + kd11.getKodePos()+"\n");
 }
 
-CreateData();
+kPos();
+//DoorMachine class
+DoorMachine door = new DoorMachine();
+door.doorMachine();
